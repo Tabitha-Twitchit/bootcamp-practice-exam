@@ -95,8 +95,15 @@ let subscriptions = [
     }
   }
   };
-  
-  
+  // let cancelSubscriptions = function(array) {
+  //   for (let i = 0; i <= array.length; i += 2) {
+  //     if (array[i].costPerMonth > 10) {
+  //       array[i].cancel = true; 
+  //     }
+  //   }
+  //   return array;
+  // };
+
   /*
   NOTE: If you test this function in the console, remember to comment 
   out the test because this function will DESTRUCTIVELY alter the subscriptions 
